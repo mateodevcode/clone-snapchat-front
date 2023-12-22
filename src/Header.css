@@ -1,0 +1,87 @@
+/* Seccion menu principal */
+
+.header {
+    background-color: #ffFC00;
+    position: fixed;
+    padding-top: 2px;
+    /* FFFC00 */
+}
+
+.logo {
+    width: -26px;
+    height: -26px;
+}
+.botones {
+    transition: background-color .1s ease;
+    top: 4px;
+    bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    bottom: 0,5px;
+    border-radius: 8px;
+    background-color:#ffFC00;
+    width: 72px;
+    height: 64px;
+    display:flex;
+    margin-top:2.5px;
+    margin-bottom: 3px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    
+    
+}
+
+.icon {
+    position: absolute;
+}
+.input
+{   padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40  px;
+    width: 180px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22;
+    padding-left: 36;
+    
+    
+}
+
+.tercer-div {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 100px;
+  margin-left: 1px;
+  width: 400px;
+  
+    
+}
+
+.boton-negro {
+    
+    border-radius: 60px;
+    color:aliceblue;
+    background-color: #000000;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 32px;
+    width: 180px;
+    
+}
+
+.colorYellow{
+    color: #FFFC00;
+}
+
+/* Seccion menu principal */

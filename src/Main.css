@@ -1,0 +1,22 @@
+/* Seccion menu principal */
+
+.menuprincipal {
+    background-color: #FFFC00;
+}
+
+.novedad {
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+.foot {
+    bottom: 0;
+    position: fixed;
+    background-color: #121314;
+}
+
+.colorYellow{
+    color: #FFFC00;
+}
+
+/* Seccion menu principal */
