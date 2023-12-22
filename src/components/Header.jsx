@@ -12,67 +12,67 @@ import { CgSearch } from "react-icons/cg";
 
 const Header = () => {
   return (
-    <header className="flex items-center w-full header  ">
+    <header className="flex w-full items-center header  ">
       {/* Cuadro principal del header */}
-      <div className="w-full flex items-center text-center p-4px h-72px w-72px">
-        <div className=" flex items-center text-center ml-5 mr-9 ">
-          <div className="">
-          <FaSnapchat  className="text-2xl" />
+      <div>
+        <div className="flex  items-center text-center">
+          <div className=" flex items-center text-center h-20px w-20px ">
+            <div className="flex h-16 w-16 p-4 pl-6   items-center justify-center ">
+              <FaSnapchat className="text-2xl" />
+            </div>
           </div>
-        </div>
-        <div className="flex w-full items-center text-center relative rounded shadow-sm  ">
-          <input type="text" placeholder="Buscar" className="input " />
-          <div className="absolute ml-2">
-            <CgSearch className="text-2xl" />
+          <div className="flex w-full items-center text-center relative ml-2 ">
+            <input
+              type="text"
+              placeholder="Buscar"
+              className="rounded-full h-10 w-48 text-center text-sm font-semibold"
+            />
+            <div className="absolute ml-2">
+              <CgSearch className="text-2xl" />
+            </div>
           </div>
         </div>
       </div>
-      <nav className="w-full flex items-center">
-        <ul className="flex items-center w-full ">
-          <li>
-            <div className="botones">
-              <span>
+      <div className="flex items-center ml-52 mr-20">
+        <nav className=" ">
+          <ul className="flex items-center w-full ">
+            <li>
+              <div className="botones">
                 <VscVersions className="text-2xl" />
-              </span>
-              <span>Historias</span>
-            </div>
-          </li>
-          <div className=" botones">
-            <span>
+                <span className="flex-end">Historias</span>
+              </div>
+            </li>
+            <div className=" botones">
               <VscPlay className="text-2xl" />
-            </span>
-            <span>Spolight</span>
-          </div>
-          <div className=" botones">
-            <span>
+              <span>Spolight</span>
+            </div>
+            <div className=" botones">
               <BsChatRight className="text-2xl" />
-            </span>
-            <span>Chat</span>
-          </div>
-          <div className=" botones">
-            <span>
+              <span>Chat</span>
+            </div>
+            <div className=" botones">
               <WiStars className="text-2xl" />
-            </span>
-            <span>Lentes</span>
-          </div>
-          <div className=" botones">
-            <span>
+              <span>Lentes</span>
+            </div>
+            <div className=" botones">
               <TbMapPin className="text-2xl" />
-            </span>
-            <span>Mapa</span>
-          </div>
-        </ul>
-      </nav>
-      <div className="tercer-div w-full">
-        <nav className=" mr-14">
-          <div>
-            <CgMenuGridO className="text-3xl" />
+              <span>Mapa</span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <div className="flex items-center ml-10">
+        <nav className="">
+          <div className="bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <CgMenuGridO className="text-2xl " />
           </div>
         </nav>
-        <div className="boton-negro text-center ml-15 mr-3 ">
+        <div className="boton-negro text-center text-sm w-46 ml-5 font-semibold ">
           Anuncios de Snapchat
         </div>
-        <div className="boton-negro w-1/4 text-center ">Descargar</div>
+        <div className="boton-negro w-24 text-center text-sm ml-3 mr-12 font-semibold ">
+          Descargar
+        </div>
       </div>
     </header>
   );
