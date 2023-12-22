@@ -65,14 +65,14 @@ const Header = () => {
       </nav>
       <div className="tercer-div w-full">
         <nav className=" mr-14">
-          <div>
+          <div className="bg-white p-2 rounded-full">
             <CgMenuGridO className="text-3xl" />
           </div>
         </nav>
-        <div className="boton-negro text-center ml-15 mr-3 ">
+        <div className="boton-negro text-center ml-15 mr-3 font-semibold">
           Anuncios de Snapchat
         </div>
-        <div className="boton-negro w-1/4 text-center ">Descargar</div>
+        <div className="boton-negro w-1/4 text-center font-semibold">Descargar</div>
       </div>
     </header>
   );
