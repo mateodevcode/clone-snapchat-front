@@ -12,13 +12,12 @@ import { CgSearch } from "react-icons/cg";
 
 const Header = () => {
   return (
-    <nav className="w-full h-16 pt-2 flex flex-row items-center header justify-between fixed">
-      {" "}
+    <nav className="w-full h-16 pt-2 flex flex-row items-center header sm:justify-between fixed ">
       {/* Cuadro principal del header */}
       {/* Primer Div */}
       <div className="flex flex-row justify-center items-center ml-1 mr-20 ">
         <div className="flex items-center justify-center mx-6 cursor-pointer">
-          <FaSnapchat className="text-2.2xl" />
+          <FaSnapchat className="text-2xl" />
         </div>
         <div className="flex w-full items-center">
           <input
@@ -35,15 +34,15 @@ const Header = () => {
       <div className="flex flex-row justify-center items-center">
         <ul className="flex flex-row justify-center items-center">
           <li className="flex flex-col justify-center items-center mx-1 cursor-pointer color-bg w-16 h-16 rounded-md ">
-            <VscVersions className="text-2xl mb-1" />
+            <VscVersions className="text-3xl mb-1" />
             <p className="text-enlace font-semibold">Historias</p>
           </li>
           <li className="flex flex-col justify-center items-center mx-1 cursor-pointer color-bg w-16 h-16 rounded-md">
-            <VscPlay className="text-2xl mb-1" />
+            <VscPlay className="text-3xl mb-1" />
             <p className="text-enlace font-semibold ">Spolight</p>
           </li>
           <li className="flex flex-col justify-center items-center mx-1 cursor-pointer color-bg w-16 h-16 rounded-md">
-            <span className="bg-sky-500 text-white nube-chat rounded-full py absolute top-2 cursor-pointer">
+            <span className="bg-sky-500 text-white nube-chat rounded-full ml-3 top-2 cursor-pointer absolute ">
               NEW
             </span>
             <BsChatRight className="text-2xl mb-1" />
@@ -54,7 +53,7 @@ const Header = () => {
             <p className="text-enlace font-semibold ">Lentes</p>
           </li>
           <li className="flex flex-col justify-center items-center mx-1 cursor-pointer color-bg w-16 h-16 rounded-md">
-            <TbMapPin className="text-2xl mb-1" />
+            <TbMapPin className="text-3xl mb-1" />
             <p className="text-enlace font-semibold ">Mapa</p>
           </li>
         </ul>
